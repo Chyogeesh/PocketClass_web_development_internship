@@ -1,0 +1,27 @@
+{
+  "instructors": {
+    "instructor_id_1": {
+      "name": "John Doe",
+      "availability": {
+        "2024-11-06": ["10:00", "12:00"],
+        "2024-11-07": ["09:00", "11:00"]
+      },
+      "upcoming_bookings": ["booking_id_1", "booking_id_2"]
+    }
+  },
+  "students": {
+    "student_id_1": {
+      "name": "Jane Smith",
+      "past_bookings": ["booking_id_3"]
+    }
+  },
+  "bookings": {
+    "booking_id_1": {
+      "instructor_id": "instructor_id_1",
+      "student_id": "student_id_1",
+      "date": "2024-11-06",
+      "time": "10:00",
+      "status": "confirmed"
+    }
+  }
+}
